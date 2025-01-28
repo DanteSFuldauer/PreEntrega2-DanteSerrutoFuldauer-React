@@ -1,0 +1,73 @@
+/* src/styles.css */
+body {
+    background-color: #aaaaaa;
+  }
+  
+  .navbar {
+    background-color: #cc0808;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #000000 !important;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important;
+  }
+  
+  h3 {
+    color: #110120;
+    text-align: center;
+    padding-top: 40px; /* Más padding arriba */
+    padding-bottom: 20px; /* Más padding abajo */
+  }
+  
+  .card {
+    border: 1px solid #007bff;
+    margin: 20px; /* Márgenes alrededor de las tarjetas */
+    padding-top: 20px; /* Margen superior dentro de la tarjeta */
+  }
+  
+  .card-title {
+    color: #343a40;
+    text-align: center;
+  }
+  
+  .card-text {
+    color: #495057;
+  }
+  
+  .btn-primary {
+    background-color: #005fc4;
+    border: none;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .category-title {
+    text-align: center;
+    color: #007bff;
+    margin-top: 40px; /* Más margen superior */
+  }
+  
+  .card-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Limitar la altura máxima para ocupe menos espacio */
+    object-fit: contain; /* Deja espacio a los costados, arriba y abajo */
+  }
