@@ -19,7 +19,7 @@ const ItemList = ({ products, onAddToCart, onRemoveFromCart }) => {
               <p className="card-text fw-bold">${product.price}</p>
               <div className="card-buttons">
                 <Link to={`/item/${product.id}`} className="btn btn-primary">
-                  Más info
+                  Detalles
                 </Link>
                 <button
                   className="btn btn-success"

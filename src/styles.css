@@ -4,28 +4,30 @@ body {
   }
   
   .navbar {
-    background-color: #cc0808;
+    background-color: #000000 !important; /* Negro */
   }
   
-  .navbar-brand, .nav-link {
-    color: #000000 !important;
+  .navbar-brand, .nav-link, .fa-shopping-cart {
+    color: #ffffff !important; /* Blanco */
   }
   
   .nav-link:hover {
-    color: #ffc107 !important;
+    background-color: rgba(128, 128, 128, 0.8); /* Gris con transparencia */
+    border-radius: 5px; /* Opcional: añadir esquinas redondeadas */
   }
   
   h3 {
-    color: #110120;
+    color: #000000;
     text-align: center;
     padding-top: 40px; /* Más padding arriba */
     padding-bottom: 20px; /* Más padding abajo */
   }
   
   .card {
-    border: 1px solid #007bff;
+    border: none; /* Eliminar bordes */
     margin: 20px; /* Márgenes alrededor de las tarjetas */
-    padding-top: 20px; /* Margen superior dentro de la tarjeta */
+    padding-top: 40px; /* Margen superior dentro de la tarjeta */
+    
   }
   
   .card-title {
@@ -54,7 +56,7 @@ body {
   
   .category-title {
     text-align: center;
-    color: #007bff;
+    color: #000000;
     margin-top: 40px; /* Más margen superior */
   }
   
@@ -62,7 +64,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   
   .card-img-top {
@@ -71,3 +73,8 @@ body {
     max-height: 200px; /* Limitar la altura máxima para ocupe menos espacio */
     object-fit: contain; /* Deja espacio a los costados, arriba y abajo */
   }
+  
+  .cart-count {
+    color: #979797; /* Gris más claro para el contador del carrito */
+  }
+  
